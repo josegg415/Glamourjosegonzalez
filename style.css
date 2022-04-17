@@ -17,3 +17,21 @@ footer{
     text-align: center;
 
 }
+
+textoAnimado{
+    animation-name: texto;
+    animation-duration: 2s;
+}
+
+@keyframes texto{
+    from {
+        transform: translate(-1000px);
+
+    }
+    to {
+        transform: translate(0);
+
+    }
+
+
+}
